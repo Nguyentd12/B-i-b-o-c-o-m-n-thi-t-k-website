@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-image: url('./image/anhkientruc.jpg');
+}
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border-radius: 3px;
+    width: 400px;
+    box-shadow: #000 0 0 25px -10px;
+}
+.login-top .title {
+    height: 40px;
+    text-align: center;
+    font-size: 24px;
+}
+.login-top .Image-Login {
+    height: 90px;
+    position: relative;
+}
+.login-main{
+    padding: 0 40px;
+}
+.textbox{
+    border:none;
+    outline: none;
+    background: none;
+}
+    .textbox input {
+        height: 41px;
+        font-family: inherit;
+        width: 100%;
+        padding: 0 8px;
+        border: solid 1px #e0e0e0;
+        font-size: 16px;
+        box-sizing: border-box;
+        outline: none;
+        border-radius:4px;
+    }
+.btn-Login input {
+    margin-top: 15px;
+    line-height: 40px;
+    background-color: #355dbd;
+    width: 100%;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login-main p{
+    margin: 10px 0;
+}
+.forget-passwork{
+    margin-top: 15px;
+    text-align:center;
+}
+.create-account {
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom:20px;
+}
+    .forget-passwork, .create-account a {
+        color: #355dbd;
+        cursor: pointer;
+        font-size: 16px;
+    }
+.log-in:hover {
+   opacity: 0.6;
+}
+.Title-header-logo {
+    position: absolute;
+    color: red;
+    font-size: 26px;
+    font-weight: 600;
+    top: 37px;
+    left: 104px;
+}
+
+
+
+
+
